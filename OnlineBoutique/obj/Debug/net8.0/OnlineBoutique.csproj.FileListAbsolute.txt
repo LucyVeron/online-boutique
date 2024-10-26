@@ -257,3 +257,5 @@ C:\Users\USER\source\repos\OnlineBoutique\OnlineBoutique\bin\Debug\net8.0\runtim
 C:\Users\USER\source\repos\OnlineBoutique\OnlineBoutique\obj\Debug\net8.0\OnlineBoutique.csproj.AssemblyReference.cache
 C:\Users\USER\source\repos\OnlineBoutique\OnlineBoutique\obj\Debug\net8.0\OnlineBo.B27CB663.Up2Date
 C:\Users\USER\source\repos\OnlineBoutique\OnlineBoutique\obj\Debug\net8.0\OnlineBoutique.sourcelink.json
+C:\Users\USER\source\repos\OnlineBoutique\OnlineBoutique\bin\Debug\net8.0\package-lock.json
+C:\Users\USER\source\repos\OnlineBoutique\OnlineBoutique\bin\Debug\net8.0\package.json

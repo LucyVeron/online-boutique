@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tpGlMhYvLV5zAM5xKtg4DDEF9jBxjrZRdFvFpp1W2i4=",
+  "Hash": "oF7LqADWeO5IvWhjQfJrz5WStUc0JxK9vOmwEo2223M=",
   "Source": "OnlineBoutique",
   "BasePath": "_content/OnlineBoutique",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\OnlineBoutique\\OnlineBoutique\\wwwroot\\css\\styles.css",
+      "SourceId": "OnlineBoutique",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\OnlineBoutique\\OnlineBoutique\\wwwroot\\",
+      "BasePath": "_content/OnlineBoutique",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\OnlineBoutique\\OnlineBoutique\\wwwroot\\favicon.ico",
