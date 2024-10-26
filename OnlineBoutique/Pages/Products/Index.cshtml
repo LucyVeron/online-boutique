@@ -2,10 +2,10 @@
 @model OnlineBoutique.Pages.Products.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Vendor Admin Page";
 }
 
-<h1>Index</h1>
+<h1>Vendor Admin Page</h1>
 
 <p>
     <a asp-page="Create">Create New</a>
@@ -34,6 +34,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Product[0].Category)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Rating)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -51,6 +54,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
