@@ -32,6 +32,10 @@ namespace OnlineBoutique.Pages.Products
 
         public async Task OnGetAsync()
         {
+            IQueryable<string> categoryQuery = from p in _context.Product
+                                               orderby p.Category
+                                               select p.Category;
+
             var products = from p in _context.Product
                            select p;
 
@@ -40,6 +44,12 @@ namespace OnlineBoutique.Pages.Products
                 products = products.Where(s => s.Name.Contains(SearchString));
             }
 
+            if (!string.IsNullOrEmpty(ProductCategory))
+            {
+                products = products.Where(x => x.Category == ProductCategory);
+            }
+
+            Categories = new SelectList(await categoryQuery.Distinct().ToListAsync());
             Product = await products.ToListAsync();
         }
     }
